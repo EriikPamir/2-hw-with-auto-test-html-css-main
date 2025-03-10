@@ -2,14 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'inter', sans-serif; 
     /* Свойства для сброса начальных стилей элементов */
 }
 
 body {
     font-family: "Inter", sans-serif;
     color: #303030;
-    background-color:#35461 ;
 }
 
 header {
@@ -74,7 +72,7 @@ select {
     appearance: none;  
     background-image: url(/assets/ep_arrow-down.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right 12px top 50%;
     padding: 9px 12px;
     /* Стили для выпадающего списка */
 }
@@ -172,7 +170,7 @@ footer {
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
-
+    padding: 26px 1px;
       /* Стили для футера */
 }
 
@@ -181,4 +179,7 @@ footer {
     font-size: 14px;
     color: #2965f1;
    text-align: center; /* Стили для футера */
+}
+.footer-link:visited {
+    color: purple;
 }
