@@ -1,3 +1,8 @@
+body {
+    font-family: "Inter", sans-serif;
+    color: rgb(48, 48, 48); 
+
+}
 * {
     padding: 0;
     margin: 0;
@@ -5,11 +10,6 @@
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {
-    font-family: "Inter", sans-serif;
-    color: rgb(48, 48, 48); 
-
-}
 
 header {
     width: 1440px;
