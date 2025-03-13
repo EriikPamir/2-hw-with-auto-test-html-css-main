@@ -33,6 +33,7 @@ header span {
     width: 1440px;
     height: 1024px;
     background: #fafaff; 
+    padding: 60px 0px;
       /* Стили для первой секции */
 }
 
@@ -53,7 +54,7 @@ header span {
 }
 
 .main-image {
-    max-height: 715px;
+    max-width: 715px;
     height: 508px;
     width: 715px; /* Стили для изображения в первой секции */
 }
@@ -62,6 +63,7 @@ header span {
 .about-section {
     width: 1440px;
     height: 883px;/* Стили для второй секции */
+    padding: 100px 0px;
 }
 
 select {
@@ -84,7 +86,7 @@ select {
     font-weight: 700;
     font-size: 24px;
     color: #303030;
-    padding-bottom: 25px; /* Стили для заголовков во второй секции */
+    margin: 25px; /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
@@ -92,7 +94,7 @@ select {
     background-image: url(/assets/solar_map-arrow-up-bold.svg);
     background-repeat: repeat-y;
     background-position:0 50%;
-    padding-left: 20px;
+    padding: 0px 20px;
     list-style: none;
     font-weight: 400;
     font-size: 16px;
@@ -100,7 +102,7 @@ select {
 }
 
 .books-list {
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
     color: #303030; 
@@ -148,12 +150,13 @@ color: #303030;  /* Стили для подписей чекбоксов */
 table {
     width: 300px;
     height: 196px;
+    font-size: 16px;
     border-collapse: collapse; /* Стили для таблицы */
 }
 
 th, td {
     border: 1px solid #95a1bb;
-    padding: 11px 12px 12px ; 
+    padding: 11px 15px ; 
     color: #303030; /* Стили для ячеек таблицы */
 }
 th{
@@ -166,14 +169,14 @@ td {
     font-weight: 400;
     font-size: 14px;
     color: #303030;
-    padding: 11px 12px 15px;
+    padding: 11px 15px;
 }
 
 footer {
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
-    padding: 26px 1px;
+    padding: 26px 0px;
       /* Стили для футера */
 }
 
@@ -181,6 +184,7 @@ footer {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
+    text-decoration: none;
    text-align: center; /* Стили для футера */
 }
 .footer-link:visited {
