@@ -6,9 +6,8 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    color:#303030; 
-}
+    font-family: "Inter", sans-serif;
+    color:rgb(48, 48, 48); }
 
 header {
     width: 1440px;
